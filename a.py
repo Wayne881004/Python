@@ -36,3 +36,19 @@
 #     print("You are {}pounds.".format(weight * 0.45))
 # else:
 #     print("You are {} pounds.".format(weight / 0.45))
+
+# price = [10,20,30]
+# total = 0 
+# for item in price:
+#     total += item
+# print("total money : {}".format(total))
+# for x in range(4):
+#     for y in range(3):
+#         print("{} {}".format(x,y))
+
+# num = [5,2,5,2,2]
+# for x in num:    
+#     output = ""
+#     for i in range(x):
+#         output += "x" #print "F"
+#     print(output)
