@@ -52,3 +52,24 @@
 #     for i in range(x):
 #         output += "x" #print "F"
 #     print(output)
+
+
+# name = ['Bob','John']
+# print(name[1])
+# print(name)
+# custom = {
+#     "name" : "Bobo",
+#     "age" : 30
+# }
+# custom["gender"] = "Male"
+# print(custom["gender"])
+# message = input(">")
+# words = message.split(" ")
+# emoji = {
+#     ":)" : "😀",
+#     ":(" : "😟"
+# }
+# output = ""
+# for word in words:
+#     output += emoji.get(word,word) + " "
+# print(output)
