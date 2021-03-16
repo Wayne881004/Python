@@ -73,3 +73,53 @@
 # for word in words:
 #     output += emoji.get(word,word) + " "
 # print(output)
+
+# def square(number):
+#     return number * number
+# print(square(3))
+
+# try:
+#     age = int(input("Age: "))
+#     print(200/age)
+# except ZeroDivisionError:
+#     print("Age cannot be 0.")
+# except ValueError:
+#     print("Invalid value.")
+
+# class Person:
+#     #Constructors
+#     def __init__(self, name):  #You can not only use "self", can change it.
+#         self.name = name
+
+#     def talk(self):
+#         print("Hello, i am {}.".format(self.name))
+
+# Bobo = Person("Bobo")
+# print(Bobo.name)
+# Bobo.talk()
+
+# John = Person("John")
+# print(John.name)
+# John.talk()
+
+# class Dog: #class member function needs to + "self"
+#     def walk(self):
+#         print("Walk.")
+
+# class Cat(Dog):
+#     pass 
+
+# cat1 = Cat()
+# cat1.walk()
+
+#Ch6 Inheritance
+class Dog: 
+    def walk(self):
+        print("Walk.")
+
+class Cat(Dog):
+    def meow(self):
+        print("Meow.")
+cat1 = Cat()
+cat1.meow()
+cat1.walk()
