@@ -113,13 +113,20 @@
 # cat1.walk()
 
 #Ch6 Inheritance
-class Dog: 
-    def walk(self):
-        print("Walk.")
+# class Dog: 
+#     def walk(self):
+#         print("Walk.")
 
-class Cat(Dog):
-    def meow(self):
-        print("Meow.")
-cat1 = Cat()
-cat1.meow()
-cat1.walk()
+# class Cat(Dog):
+#     def meow(self):
+#         print("Meow.")
+# cat1 = Cat()
+# cat1.meow()
+# cat1.walk()
+
+#Ch7 model
+# import lib
+# print(lib.add(10,20))
+# import lib
+# from lib import add
+# print(add(10,20))         
