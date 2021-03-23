@@ -127,6 +127,17 @@
 #Ch7 model
 # import lib
 # print(lib.add(10,20))
+# #equal------
 # import lib
 # from lib import add
 # print(add(10,20))         
+
+
+import random as rd
+
+for i in range(3):
+    print(rd.random())
+    print(rd.randint(10,20))
+
+Member = ["Bob","Jack","Amy"]
+print(rd.choice(Member))
