@@ -133,11 +133,11 @@
 # print(add(10,20))         
 
 
-import random as rd
+# import random as rd
 
-for i in range(3):
-    print(rd.random())
-    print(rd.randint(10,20))
+# for i in range(3):
+#     print(rd.random())
+#     print(rd.randint(10,20))
 
-Member = ["Bob","Jack","Amy"]
-print(rd.choice(Member))
+# Member = ["Bob","Jack","Amy"]
+# print(rd.choice(Member))
