@@ -13,8 +13,8 @@ Epoch = int(0)
 W0 = random.random()
 W1 = random.random()
 MaxN = int(1000)
-Error = float(10)
-Learning_Rate = float(1)
+Error = float(1700)
+Learning_Rate = float(0.0001)
 Amount = int(0)
 tmp = float(0)
 
@@ -37,6 +37,7 @@ def Gradient_descent():
             W1 += Learning_Rate * (Y[i] - (W0 * X0[i] + W1 * X1[i])) * X1[i]
             
         Epoch += 1
+        # Check Error
         for i in range(Amount):
             y_hat = W0 * X0[i] + W1 * X1[i] 
             tmp += math.pow(Y[i] - y_hat,2)
@@ -55,6 +56,7 @@ if __name__ == '__main__':
     Gradient_descent()   
     Update()
     print("{} {}".format(W0,W1))
+    #Draw
     plt.plot(X1,Y,".",color = "r")
     plt.plot(X1,Train_y,color = "b")
     plt.xlabel("Claims")
